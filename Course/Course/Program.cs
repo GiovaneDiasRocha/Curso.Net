@@ -9,7 +9,7 @@ namespace Course
         {
             int n1 = int.Parse(Console.ReadLine());
             char ch = char.Parse(Console.ReadLine());
-            double n2 = double.Parse(Console.ReadLine(), CultureInfo.);
+            double n2 = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
             Console.WriteLine("Você digitou: ");
             Console.WriteLine(n1);
