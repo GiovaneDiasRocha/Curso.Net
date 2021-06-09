@@ -7,7 +7,8 @@ namespace Course
     {
         static void Main(string[] args)
         {
-            
+            //Exercício área triângulo 
+
             Triangulo x, y;
             x = new Triangulo();
             y = new Triangulo();
@@ -23,31 +24,51 @@ namespace Course
 
             Console.WriteLine();
 
-            Console.Write("Digite o lado A do triângulo x: ");
+            Console.Write("Digite o lado A do triângulo y: ");
             y.a = double.Parse(Console.ReadLine());
 
-            Console.Write("Digite o lado B do triângulo x: ");
+            Console.Write("Digite o lado B do triângulo y: ");
             y.b = double.Parse(Console.ReadLine());
 
-            Console.Write("Digite o lado C do triângulo x: ");
+            Console.Write("Digite o lado C do triângulo y: ");
             y.c = double.Parse(Console.ReadLine());
 
-            Console.WriteLine("Área do Triângulo X = " + areaTriangulo(x.a, x.b, x.c).ToString("F4", CultureInfo.InvariantCulture));
-            Console.WriteLine("Área do Triângulo Y = " + areaTriangulo(y.a, y.b, y.c).ToString("F4", CultureInfo.InvariantCulture));
+            double areaX = x.Area();
+            double areaY = y.Area();
 
-            /*if (resultadoA > resultadoB) {
-                Console.WriteLine("A maior área é: " + resultadoA);
-            } else {
-                Console.WriteLine("A maior área é: " + resultadoB);
-            }*/
-        }
+            Console.WriteLine("Área do Triângulo X = " + areaX.ToString("F4", CultureInfo.InvariantCulture));
+            Console.WriteLine("Área do Triângulo Y = " + areaY.ToString("F4", CultureInfo.InvariantCulture));
 
-        static double areaTriangulo (double a, double b, double c) {
-                    double area, p;
-                    p = (a + b + c) / 2;
-                    area = Math.Sqrt(p * (p - a) * (p - b) * (p - c));
-                    return area;
+            if (areaX > areaY)
+            {
+                Console.WriteLine("A maior área é: " + areaX.ToString("F4", CultureInfo.InvariantCulture));
+            }
+            else
+            {
+                Console.WriteLine("A maior área é: " + areaY.ToString("F4", CultureInfo.InvariantCulture));
+            }
+
+
+            //Exercício estoque produto
+            Produto produtoX;
+            produtoX = new Produto();
+
+            Console.WriteLine("Digite os dados do produto:");
+            Console.Write("Nome: ");
+            produtoX.nomeDoProduto = Console.ReadLine();
+            Console.Write("Preço: ");
+            produtoX.precoDoProduto = double.Parse(Console.ReadLine());
+            Console.Write("Quantidade no estoque: ");
+            produtoX.quantidadeDoProduto = int.Parse(Console.ReadLine());
+
+            Console.WriteLine(produtoX.ToString());
+            Console.Write("Digite o número de produtos a serem adicionados ao estoque: ");
+            produtoX.adicionarProdutos(int.Parse(Console.ReadLine()));
+            Console.WriteLine(produtoX.ToString());
+            Console.Write("Digite o número de produtos a serem removidos do estoque: ");
+            produtoX.removerProdutos(int.Parse(Console.ReadLine()));
+            Console.WriteLine(produtoX.ToString());
+
         }
-        
     }
 }

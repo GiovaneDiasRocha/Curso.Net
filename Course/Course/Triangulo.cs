@@ -1,3 +1,5 @@
+using System;
+
 namespace Course
 {
     public class Triangulo
@@ -6,5 +8,10 @@ namespace Course
         public double b;
         public double c;
         
+        public double Area() {
+            double p = (a + b + c) / 2;
+            return Math.Sqrt(p * (p - a) * (p - b) * (p - c));
+        } 
+
     }
 }
