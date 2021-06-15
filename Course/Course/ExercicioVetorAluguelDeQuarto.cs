@@ -4,6 +4,7 @@ namespace Course
 {
     public class ExercicioVetorAluguelDeQuarto
     {
+        /*
         public static void Main(string[] args)
         {
             Console.Write("\nInforme a quantidade de alunos que irão alugar os quartos: ");
@@ -47,5 +48,6 @@ namespace Course
                 Console.WriteLine($"N° do quarto: {estudantes[i].NumeroDoQuarto}, Nome: {estudantes[i].Nome}, Email: {estudantes[i].Email}\n");
             }
         }
+        */
     }
 }
