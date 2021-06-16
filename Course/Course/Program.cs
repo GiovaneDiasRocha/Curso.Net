@@ -48,6 +48,22 @@ namespace Course
 
             }
 
+            Console.Write("Informe o ID do funcionário que terá o salário aumentado: ");
+            int idAux = int.Parse(Console.ReadLine());
+            Funcionario funcionario = new Funcionario();
+            if (funcionario.buscaFuncionario(listaFuncionarios, idAux) != null)
+            {
+                Funcionario funcAux = funcionario.buscaFuncionario(listaFuncionarios, idAux);
+                Console.Write("Qual a porcentagem do aumento? ");
+                double porcentagem = double.Parse(Console.ReadLine());
+                funcAux.aumentarSalario(porcentagem);
+            }
+            else
+            {
+                Console.WriteLine("Funcionário não encontrado!");
+            }
+
+            Console.WriteLine("Dados atualizados!");
             foreach (Funcionario item in listaFuncionarios)
             {
                 Console.WriteLine("ID: " + item.Id + ", Nome: " + item.Nome + ", Salário: R$" + item.Salario.ToString("F2", CultureInfo.InvariantCulture));
