@@ -1,74 +1,42 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Globalization;
-namespace Course
+using Course.Entities.Enums;
+using Course.Entities;
 
+namespace Course
 {
     class Program
     {
         public static void Main(string[] args)
         {
-            int id, n;
-            string nome;
-            double salario;
+            /*
+            Console.WriteLine("Enter Department’s name");
+            Department department = new Department {NameDepartment = Console.ReadLine()};
+            Console.WriteLine("\nEnter worker data");
+            Worker worker = new Worker();
+            Console.Write("\nName: ");
+            worker.Name = Console.ReadLine();
 
-            List<Funcionario> listaFuncionarios = new List<Funcionario>();
+            Console.Write("Level [Junior/MidLevel/Senior]: ");
+            worker.Level = Enum.Parse<WorkerLevel>(Console.ReadLine());
 
-            Console.Write("Informe o número de funcionários que deseja cadastrar: ");
-            n = int.Parse(Console.ReadLine());
+            Console.Write("Base Salary: ");
+            worker.BaseSalary = double.Parse(Console.ReadLine());
 
-            for (int i = 0; i < n; i++)
-            {
-                Console.Write("ID do funcionário: ");
-                id = int.Parse(Console.ReadLine());
-                Console.Write("Nome do funcionário: ");
-                nome = Console.ReadLine();
-                Console.Write("Salário do funcionário: ");
-                salario = double.Parse(Console.ReadLine());
-
-                Funcionario func = new Funcionario(id, nome, salario);
+            Console.WriteLine("How many contracts to this worker? ");
+            int quantContract = int.Parse(Console.ReadLine());
 
 
-                if (listaFuncionarios.Count == 0)
-                {
-                    listaFuncionarios.Add(func);
-                }
-                else
-                {
-                    foreach (Funcionario item in listaFuncionarios)
-                    {
-                        if (item.Id == id)
-                        {
-                            Console.WriteLine("ID indisponível!");
-                            return;
-                        }
-                    }
-                    listaFuncionarios.Add(func);
-                }
+            Console.Write("Date[DD/MM/YYYY]: ");
+            contract.Date = DateTime.Parse(Console.ReadLine());
 
-            }
+            Console.Write("Value Per Hour: R$");
+            contract.ValuePerHour = double.Parse(Console.ReadLine());
 
-            Console.Write("Informe o ID do funcionário que terá o salário aumentado: ");
-            int idAux = int.Parse(Console.ReadLine());
-            Funcionario funcionario = new Funcionario();
-            if (funcionario.buscaFuncionario(listaFuncionarios, idAux) != null)
-            {
-                Funcionario funcAux = funcionario.buscaFuncionario(listaFuncionarios, idAux);
-                Console.Write("Qual a porcentagem do aumento? ");
-                double porcentagem = double.Parse(Console.ReadLine());
-                funcAux.aumentarSalario(porcentagem);
-            }
-            else
-            {
-                Console.WriteLine("Funcionário não encontrado!");
-            }
-
-            Console.WriteLine("Dados atualizados!");
-            foreach (Funcionario item in listaFuncionarios)
-            {
-                Console.WriteLine("ID: " + item.Id + ", Nome: " + item.Nome + ", Salário: R$" + item.Salario.ToString("F2", CultureInfo.InvariantCulture));
-            }
-
+            Console.Write("Duration: ");
+            contract.Hours = int.Parse(Console.ReadLine());
+            */
         }
     }
 }
