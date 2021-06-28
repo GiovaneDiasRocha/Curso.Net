@@ -57,7 +57,7 @@ namespace Course
             double income = worker.Income(int.Parse(vetorDateIncome[0]), int.Parse(vetorDateIncome[1]));
             
 
-            System.Console.WriteLine($"\nName: {worker.Name} \nDepartment: {worker.Department.NameDepartment} \nIncome for {dateIncome}: R${income}");
+            System.Console.WriteLine($"\nName: {worker.Name} \nDepartment: {worker.Department.NameDepartment} \nIncome for {dateIncome}: R${income.ToString("F2", CultureInfo.InvariantCulture)}");
         }
     }
 }
