@@ -20,24 +20,24 @@ namespace Course.Entities
             Department = department;
         }
 
-        public void addContract(HourContract contract)
+        public void AddContract(HourContract contract)
         {
             Contracts.Add(contract);
         }
 
-        public void removeContract(HourContract contract)
+        public void RemoveContract(HourContract contract)
         {
             Contracts.Remove(contract);
         }
 
-        public double income(int year, int month)
+        public double Income(int month, int year)
         {
             double sum = BaseSalary;
             foreach (HourContract contract in Contracts)
             {
                 if (contract.Date.Month == month && contract.Date.Year == year)
                 {
-                    sum += contract.totalValue();
+                    sum += contract.TotalValue();
                 }
             }
 

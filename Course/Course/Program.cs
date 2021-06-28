@@ -10,33 +10,54 @@ namespace Course
     {
         public static void Main(string[] args)
         {
-            /*
-            Console.WriteLine("Enter Department’s name");
-            Department department = new Department {NameDepartment = Console.ReadLine()};
-            Console.WriteLine("\nEnter worker data");
-            Worker worker = new Worker();
+            
+            string nameWorker;
+            WorkerLevel levelWorker;
+            double baseSalaryWorker;
+
+            Console.Write("Enter Department’s name: ");
+            string departmentName = Console.ReadLine();
+
             Console.Write("\nName: ");
-            worker.Name = Console.ReadLine();
+            nameWorker = Console.ReadLine();
 
             Console.Write("Level [Junior/MidLevel/Senior]: ");
-            worker.Level = Enum.Parse<WorkerLevel>(Console.ReadLine());
+            levelWorker = Enum.Parse<WorkerLevel>(Console.ReadLine());
 
             Console.Write("Base Salary: ");
-            worker.BaseSalary = double.Parse(Console.ReadLine());
+            baseSalaryWorker = double.Parse(Console.ReadLine());
 
-            Console.WriteLine("How many contracts to this worker? ");
+            Department department = new Department(departmentName);
+
+            Worker worker = new Worker(nameWorker, levelWorker, baseSalaryWorker, department);
+
+            Console.Write("\nHow many contracts to this worker? ");
             int quantContract = int.Parse(Console.ReadLine());
 
+            for (int i = 0; i < quantContract; i++)
+            {
+                Console.WriteLine($"\nContract #{i+1}");
+                
+                Console.Write("\nDate[DD/MM/YYYY]: ");
+                DateTime date = DateTime.Parse(Console.ReadLine());
 
-            Console.Write("Date[DD/MM/YYYY]: ");
-            contract.Date = DateTime.Parse(Console.ReadLine());
+                Console.Write("Value Per Hour: R$");
+                double valuePerHour = double.Parse(Console.ReadLine());
 
-            Console.Write("Value Per Hour: R$");
-            contract.ValuePerHour = double.Parse(Console.ReadLine());
+                Console.Write("Duration (hours): ");
+                int hours = int.Parse(Console.ReadLine());
 
-            Console.Write("Duration: ");
-            contract.Hours = int.Parse(Console.ReadLine());
-            */
+                HourContract contract = new HourContract(date, valuePerHour, hours);
+                worker.AddContract(contract);
+            }
+
+            Console.Write("\nEnter the month and year for calculate income this period (MM/YYYY): ");
+            string dateIncome = Console.ReadLine();
+            string[] vetorDateIncome = dateIncome.Split("/");
+            double income = worker.Income(int.Parse(vetorDateIncome[0]), int.Parse(vetorDateIncome[1]));
+            
+
+            System.Console.WriteLine($"\nName: {worker.Name} \nDepartment: {worker.Department.NameDepartment} \nIncome for {dateIncome}: R${income}");
         }
     }
 }
