@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\giovane.rocha\\RepositórioGit\\CursoC#\\Aula122\\Aula122.csproj",
+      "projectUniqueName": "C:\\Users\\giovane.rocha\\RepositórioGit\\CursoC#\\Curso\\Aula122\\Aula122.csproj",
       "projectName": "Aula122",
-      "projectPath": "C:\\Users\\giovane.rocha\\RepositórioGit\\CursoC#\\Aula122\\Aula122.csproj",
+      "projectPath": "C:\\Users\\giovane.rocha\\RepositórioGit\\CursoC#\\Curso\\Aula122\\Aula122.csproj",
       "packagesPath": "C:\\Users\\giovane.rocha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\giovane.rocha\\RepositórioGit\\CursoC#\\Aula122\\obj\\",
+      "outputPath": "C:\\Users\\giovane.rocha\\RepositórioGit\\CursoC#\\Curso\\Aula122\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
