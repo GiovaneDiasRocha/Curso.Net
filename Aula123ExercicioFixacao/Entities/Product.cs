@@ -1,5 +1,3 @@
-using System.Collections.Generic;
-
 namespace Aula123ExercicioFixacao.Entities
 {
     public class Product

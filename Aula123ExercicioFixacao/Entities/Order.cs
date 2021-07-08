@@ -8,6 +8,8 @@ namespace Aula123ExercicioFixacao.Entities
     {
         public DateTime Moment { get; set; }
         public OrderStatus Status { get; set; }
+        public OrderItem OrderItem { get; set; }
+        public Client Client { get; set; }
         public List<OrderItem> Items { get; set; } = new List<OrderItem>();
 
         public void AddItem(OrderItem item)
