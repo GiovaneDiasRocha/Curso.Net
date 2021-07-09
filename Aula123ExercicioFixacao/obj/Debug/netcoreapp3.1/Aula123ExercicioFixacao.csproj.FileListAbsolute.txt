@@ -1,0 +1,13 @@
+C:\Users\giovane.rocha\RepositórioGit\CursoC#\Curso\Aula123ExercicioFixacao\bin\Debug\netcoreapp3.1\Aula123ExercicioFixacao.exe
+C:\Users\giovane.rocha\RepositórioGit\CursoC#\Curso\Aula123ExercicioFixacao\bin\Debug\netcoreapp3.1\Aula123ExercicioFixacao.deps.json
+C:\Users\giovane.rocha\RepositórioGit\CursoC#\Curso\Aula123ExercicioFixacao\bin\Debug\netcoreapp3.1\Aula123ExercicioFixacao.runtimeconfig.json
+C:\Users\giovane.rocha\RepositórioGit\CursoC#\Curso\Aula123ExercicioFixacao\bin\Debug\netcoreapp3.1\Aula123ExercicioFixacao.runtimeconfig.dev.json
+C:\Users\giovane.rocha\RepositórioGit\CursoC#\Curso\Aula123ExercicioFixacao\bin\Debug\netcoreapp3.1\Aula123ExercicioFixacao.dll
+C:\Users\giovane.rocha\RepositórioGit\CursoC#\Curso\Aula123ExercicioFixacao\bin\Debug\netcoreapp3.1\Aula123ExercicioFixacao.pdb
+C:\Users\giovane.rocha\RepositórioGit\CursoC#\Curso\Aula123ExercicioFixacao\obj\Debug\netcoreapp3.1\Aula123ExercicioFixacao.csprojAssemblyReference.cache
+C:\Users\giovane.rocha\RepositórioGit\CursoC#\Curso\Aula123ExercicioFixacao\obj\Debug\netcoreapp3.1\Aula123ExercicioFixacao.AssemblyInfoInputs.cache
+C:\Users\giovane.rocha\RepositórioGit\CursoC#\Curso\Aula123ExercicioFixacao\obj\Debug\netcoreapp3.1\Aula123ExercicioFixacao.AssemblyInfo.cs
+C:\Users\giovane.rocha\RepositórioGit\CursoC#\Curso\Aula123ExercicioFixacao\obj\Debug\netcoreapp3.1\Aula123ExercicioFixacao.csproj.CoreCompileInputs.cache
+C:\Users\giovane.rocha\RepositórioGit\CursoC#\Curso\Aula123ExercicioFixacao\obj\Debug\netcoreapp3.1\Aula123ExercicioFixacao.dll
+C:\Users\giovane.rocha\RepositórioGit\CursoC#\Curso\Aula123ExercicioFixacao\obj\Debug\netcoreapp3.1\Aula123ExercicioFixacao.pdb
+C:\Users\giovane.rocha\RepositórioGit\CursoC#\Curso\Aula123ExercicioFixacao\obj\Debug\netcoreapp3.1\Aula123ExercicioFixacao.genruntimeconfig.cache

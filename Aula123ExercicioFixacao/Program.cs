@@ -8,36 +8,42 @@ namespace Aula123ExercicioFixacao
     {
         static void Main(string[] args)
         {
-            Order order = new Order();
-
-            Console.Write("Enter client data");
+            Console.WriteLine("Enter client data");
             Console.Write("Name: ");
-            order.Client.Name = Console.ReadLine();
+            string nameClient = Console.ReadLine();
             Console.Write("Email: ");
-            order.Client.Email = Console.ReadLine();
+            string emailClient = Console.ReadLine();
             Console.Write("Birth Date (DD/MM/YYYY): ");
-            order.Client.BirthDate = DateTime.Parse(Console.ReadLine());
-
+            DateTime birthDateClient = DateTime.Parse(Console.ReadLine());
             Console.WriteLine("Enter order data");
             Console.Write("Status: ");
-            order.Status = Enum.Parse<OrderStatus>(Console.ReadLine());
+            OrderStatus status = Enum.Parse<OrderStatus>(Console.ReadLine());
+
+            Client client = new Client(nameClient, emailClient, birthDateClient);
+            Order order = new Order(DateTime.Now, status, client);
+
             Console.Write("How many items to this order? ");
             int numberItems = int.Parse(Console.ReadLine());
 
             for (int i = 0; i < numberItems; i++)
-            {   
-                Console.WriteLine($"Enter #{i+1} data");
+            {
+                Console.WriteLine($"Enter #{i + 1} data");
                 Console.Write("Product name: ");
-                order.OrderItem.Product.Name = Console.ReadLine();
+                string productName = Console.ReadLine();
                 Console.Write("Product price: ");
-                order.OrderItem.Product.Price = double.Parse(Console.ReadLine());
+                double productPrice = double.Parse(Console.ReadLine());
+
+                Product product = new Product(productName, productPrice);
+
                 Console.Write("Product quantity: ");
-                order.OrderItem.Quantity = int.Parse(Console.ReadLine());
+                int productQuantity = int.Parse(Console.ReadLine());
 
-                order.AddItem(order.OrderItem);
+                OrderItem orderItem = new OrderItem(productQuantity, productPrice, product);
 
-                Console.WriteLine("Order Summary");
+                order.AddItem(orderItem);
             }
+            Console.WriteLine("\nOrder Summary");
+            Console.WriteLine(order);
         }
     }
 }
