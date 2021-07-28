@@ -1,0 +1,13 @@
+C:\Users\giovane.rocha\RepositórioGit\CursoC#\Curso\Aula128\obj\Debug\netcoreapp3.1\Aula128.csprojAssemblyReference.cache
+C:\Users\giovane.rocha\RepositórioGit\CursoC#\Curso\Aula128\obj\Debug\netcoreapp3.1\Aula128.AssemblyInfoInputs.cache
+C:\Users\giovane.rocha\RepositórioGit\CursoC#\Curso\Aula128\obj\Debug\netcoreapp3.1\Aula128.AssemblyInfo.cs
+C:\Users\giovane.rocha\RepositórioGit\CursoC#\Curso\Aula128\obj\Debug\netcoreapp3.1\Aula128.csproj.CoreCompileInputs.cache
+C:\Users\giovane.rocha\RepositórioGit\CursoC#\Curso\Aula128\bin\Debug\netcoreapp3.1\Aula128.exe
+C:\Users\giovane.rocha\RepositórioGit\CursoC#\Curso\Aula128\bin\Debug\netcoreapp3.1\Aula128.deps.json
+C:\Users\giovane.rocha\RepositórioGit\CursoC#\Curso\Aula128\bin\Debug\netcoreapp3.1\Aula128.runtimeconfig.json
+C:\Users\giovane.rocha\RepositórioGit\CursoC#\Curso\Aula128\bin\Debug\netcoreapp3.1\Aula128.runtimeconfig.dev.json
+C:\Users\giovane.rocha\RepositórioGit\CursoC#\Curso\Aula128\bin\Debug\netcoreapp3.1\Aula128.dll
+C:\Users\giovane.rocha\RepositórioGit\CursoC#\Curso\Aula128\bin\Debug\netcoreapp3.1\Aula128.pdb
+C:\Users\giovane.rocha\RepositórioGit\CursoC#\Curso\Aula128\obj\Debug\netcoreapp3.1\Aula128.dll
+C:\Users\giovane.rocha\RepositórioGit\CursoC#\Curso\Aula128\obj\Debug\netcoreapp3.1\Aula128.pdb
+C:\Users\giovane.rocha\RepositórioGit\CursoC#\Curso\Aula128\obj\Debug\netcoreapp3.1\Aula128.genruntimeconfig.cache
