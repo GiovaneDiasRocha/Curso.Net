@@ -7,14 +7,34 @@ namespace Aula126
     {
         static void Main(string[] args)
         {
-            BusinessAccount ac1 = new BusinessAccount(1234, "João", 1500, 1600);
-            ac1.Loan(400);
-            Account ac2 = new Account(4231, "Maria", 2000);
-            ac2.Deposit(500);
-            ac2.WithDraw(1000);   
+            Account acc = new Account(0000, "Maria", 2000);
+            BusinessAccount bacc = new BusinessAccount(1111, "Pedro", 0, 1500);
 
-            Console.WriteLine(ac1.Balance);    
-            Console.WriteLine(ac2.Balance);   
+            //UPCASTING 
+
+            Account acc1 = bacc;
+            Account acc2 = new BusinessAccount(2222, "Carla", 0, 2000);
+            Account acc3 = new SavingsAccount(3333, "Anna", 0, 0.01);
+
+
+            //DOWNCASTING
+
+            BusinessAccount acc4 = (BusinessAccount)acc2;
+            acc4.Loan(100);
+
+            //BusinessAccount acc5 = (BusinessAccount)acc3;  vai dar erro, pois o acc3 não é compatível com o acc5
+
+            if (acc3 is BusinessAccount) {
+                //BusinessAccount acc5 = (BusinessAccount)acc3;
+                BusinessAccount acc5 = acc3 as BusinessAccount; //outra maneira de fazer o casting ultilizande o "as"
+                Console.WriteLine("Loan!");
+            }
+
+            if (acc3 is SavingsAccount) {
+                SavingsAccount acc5 = (SavingsAccount) acc3;
+                acc5.UpdateBalance();
+                Console.WriteLine("Update!");
+            }
         }
     }
 }
