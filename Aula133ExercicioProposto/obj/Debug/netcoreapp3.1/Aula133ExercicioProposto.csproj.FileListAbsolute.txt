@@ -1,0 +1,13 @@
+C:\Users\giovane.rocha\RepositórioGit\CursoC#\Curso\Aula133ExercicioProposto\bin\Debug\netcoreapp3.1\Aula133ExercicioProposto.exe
+C:\Users\giovane.rocha\RepositórioGit\CursoC#\Curso\Aula133ExercicioProposto\bin\Debug\netcoreapp3.1\Aula133ExercicioProposto.deps.json
+C:\Users\giovane.rocha\RepositórioGit\CursoC#\Curso\Aula133ExercicioProposto\bin\Debug\netcoreapp3.1\Aula133ExercicioProposto.runtimeconfig.json
+C:\Users\giovane.rocha\RepositórioGit\CursoC#\Curso\Aula133ExercicioProposto\bin\Debug\netcoreapp3.1\Aula133ExercicioProposto.runtimeconfig.dev.json
+C:\Users\giovane.rocha\RepositórioGit\CursoC#\Curso\Aula133ExercicioProposto\bin\Debug\netcoreapp3.1\Aula133ExercicioProposto.dll
+C:\Users\giovane.rocha\RepositórioGit\CursoC#\Curso\Aula133ExercicioProposto\bin\Debug\netcoreapp3.1\Aula133ExercicioProposto.pdb
+C:\Users\giovane.rocha\RepositórioGit\CursoC#\Curso\Aula133ExercicioProposto\obj\Debug\netcoreapp3.1\Aula133ExercicioProposto.csprojAssemblyReference.cache
+C:\Users\giovane.rocha\RepositórioGit\CursoC#\Curso\Aula133ExercicioProposto\obj\Debug\netcoreapp3.1\Aula133ExercicioProposto.AssemblyInfoInputs.cache
+C:\Users\giovane.rocha\RepositórioGit\CursoC#\Curso\Aula133ExercicioProposto\obj\Debug\netcoreapp3.1\Aula133ExercicioProposto.AssemblyInfo.cs
+C:\Users\giovane.rocha\RepositórioGit\CursoC#\Curso\Aula133ExercicioProposto\obj\Debug\netcoreapp3.1\Aula133ExercicioProposto.csproj.CoreCompileInputs.cache
+C:\Users\giovane.rocha\RepositórioGit\CursoC#\Curso\Aula133ExercicioProposto\obj\Debug\netcoreapp3.1\Aula133ExercicioProposto.dll
+C:\Users\giovane.rocha\RepositórioGit\CursoC#\Curso\Aula133ExercicioProposto\obj\Debug\netcoreapp3.1\Aula133ExercicioProposto.pdb
+C:\Users\giovane.rocha\RepositórioGit\CursoC#\Curso\Aula133ExercicioProposto\obj\Debug\netcoreapp3.1\Aula133ExercicioProposto.genruntimeconfig.cache

@@ -1,0 +1,13 @@
+C:\Users\giovane.rocha\RepositórioGit\CursoC#\Curso\Aula131e132\bin\Debug\netcoreapp3.1\Aula131e132.exe
+C:\Users\giovane.rocha\RepositórioGit\CursoC#\Curso\Aula131e132\bin\Debug\netcoreapp3.1\Aula131e132.deps.json
+C:\Users\giovane.rocha\RepositórioGit\CursoC#\Curso\Aula131e132\bin\Debug\netcoreapp3.1\Aula131e132.runtimeconfig.json
+C:\Users\giovane.rocha\RepositórioGit\CursoC#\Curso\Aula131e132\bin\Debug\netcoreapp3.1\Aula131e132.runtimeconfig.dev.json
+C:\Users\giovane.rocha\RepositórioGit\CursoC#\Curso\Aula131e132\bin\Debug\netcoreapp3.1\Aula131e132.dll
+C:\Users\giovane.rocha\RepositórioGit\CursoC#\Curso\Aula131e132\bin\Debug\netcoreapp3.1\Aula131e132.pdb
+C:\Users\giovane.rocha\RepositórioGit\CursoC#\Curso\Aula131e132\obj\Debug\netcoreapp3.1\Aula131e132.csprojAssemblyReference.cache
+C:\Users\giovane.rocha\RepositórioGit\CursoC#\Curso\Aula131e132\obj\Debug\netcoreapp3.1\Aula131e132.AssemblyInfoInputs.cache
+C:\Users\giovane.rocha\RepositórioGit\CursoC#\Curso\Aula131e132\obj\Debug\netcoreapp3.1\Aula131e132.AssemblyInfo.cs
+C:\Users\giovane.rocha\RepositórioGit\CursoC#\Curso\Aula131e132\obj\Debug\netcoreapp3.1\Aula131e132.csproj.CoreCompileInputs.cache
+C:\Users\giovane.rocha\RepositórioGit\CursoC#\Curso\Aula131e132\obj\Debug\netcoreapp3.1\Aula131e132.dll
+C:\Users\giovane.rocha\RepositórioGit\CursoC#\Curso\Aula131e132\obj\Debug\netcoreapp3.1\Aula131e132.pdb
+C:\Users\giovane.rocha\RepositórioGit\CursoC#\Curso\Aula131e132\obj\Debug\netcoreapp3.1\Aula131e132.genruntimeconfig.cache
